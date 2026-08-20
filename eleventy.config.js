@@ -17,6 +17,10 @@ export default function (eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy('src/images')
 
+  eleventyConfig.addFilter('findByUrl', function (collection, url) {
+    return collection.find(item => item.url === url)
+  })
+
   const nunjucksEnvironment = new Nunjucks.Environment(
     new Nunjucks.FileSystemLoader([
       'views',
