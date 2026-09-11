@@ -85,8 +85,11 @@ figure {
     border: $govuk-focus-width solid transparent;
     outline: 1px solid $govuk-border-colour;
     background-color: govuk-colour("black", $variant: "tint-95");
-    max-width: 38em;
-    @include govuk-responsive-margin(5, "bottom");
+    @media #{govuk-from-breakpoint(desktop)} {
+      // Expand the code blocks so they're full width of the grid.
+      width: calc($govuk-gutter-half + 100% + $govuk-gutter + 33.33333% + $govuk-gutter-half);
+    }
+    @include govuk-responsive-margin(6, "bottom");
 
     &:focus {
       border: $govuk-focus-width solid $govuk-input-border-colour;
