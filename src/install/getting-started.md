@@ -20,11 +20,11 @@ If you’re comfortable using Git and the terminal, you can [use the advanced gu
 The GOV.UK Prototype Kit runs on Mac, Windows and Linux. There are different requirements for each operating system.
 
 ## Mac
-[Install guide for Mac ](/install/requirements-mac/)
+[Installation guide for Mac ](/install/requirements-mac/)
 
 ## Windows
-[Install guide for Windows](/install/requirements-windows/)
+[Installation guide for Windows](/install/requirements-windows/)
 
 ## Linux
-[Install guide for Linux](/install/requirements-linux/)
+[Installation guide for Linux](/install/requirements-linux/)
 
